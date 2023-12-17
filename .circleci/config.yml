@@ -19,7 +19,7 @@ jobs:
       # Linting with golint
       - run:
           name: Run linter
-          command: go install golang.org/x/lint/golint && golint ./...
+          command: go install golang.org/x/lint/golint@latest && golint ./...
 
       # Run tests
       - run:

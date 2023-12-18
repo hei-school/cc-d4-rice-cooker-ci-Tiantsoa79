@@ -45,16 +45,6 @@ This project follows the [Rust Style Guide](https://doc.rust-lang.org/1.0.0/styl
     cargo run
     ```
 
-## Editor Integration
-
-For a better development experience, consider using the Rust plugin for your preferred editor (e.g., [rust-analyzer](https://rust-analyzer.github.io/) for VSCode). This can provide additional features like code completion, syntax highlighting, and error checking directly within your editor.
-
-By following these guidelines, you can ensure a consistent coding style, utilize a powerful linter, and enhance your development workflow while working on the Rust project.
-```
-
-This revision includes the use of `rustup` to install Clippy, which is the recommended way to manage Rust toolchains and components.
-
-```markdown
 ## Testing
 
 ### Running Tests

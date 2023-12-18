@@ -1,66 +1,68 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/__xb4cFP)
 
-# Ruby Project
+# Rust Project
 
-## Ruby RuboCop
+## Rust Clippy
 
-This project follows the [Ruby RuboCop](https://rubocop.org/) setup for linting Ruby code.
+This project uses [Clippy](https://github.com/rust-lang/rust-clippy) as a linter for ensuring code quality and adherence to best practices in Rust.
 
 ### Installation
 
-To install Ruby RuboCop and its dependencies, use the following commands:
+To install Clippy and its dependencies using `rustup`, use the following commands:
 
 ```bash
-# Install Ruby RuboCop globally (if not installed)
-gem install rubocop
-
-# Install project dependencies
-bundle install
+# Install Clippy with rustup
+rustup component add clippy
 ```
 
 ### Usage
 
-To run Ruby RuboCop and lint the project, use the following command:
+To run Clippy and lint the project, use the following command:
 
 ```bash
-# Run Ruby RuboCop
-rubocop
+# Run Clippy
+cargo clippy
 ```
 
 ## Coding Standard
 
-This project adheres to the [Ruby RuboCop Standard](https://rubocop.org/) for maintaining a consistent coding style.
+This project follows the [Rust Style Guide](https://doc.rust-lang.org/1.0.0/style/) to maintain a consistent coding style.
 
 ## Installation and Execution
 
-1. Ensure you have Ruby installed. If not, download and install it from [Ruby official website](https://www.ruby-lang.org/).
-2. Install Bundler (if not installed):
+1. Ensure you have Rust and Cargo installed. If not, download and install them from [Rust official website](https://www.rust-lang.org/tools/install).
+2. Open a terminal or command prompt.
+3. Navigate to the project directory.
+4. Install project dependencies (if any):
 
     ```bash
-    gem install bundler
+    cargo build
     ```
 
-3. Open a terminal or command prompt.
-4. Navigate to the project directory.
-5. Install project dependencies:
+5. Execute the program:
 
     ```bash
-    bundle install
+    cargo run
     ```
 
-6. Execute the program:
+## Editor Integration
 
-    ```bash
-    ruby rice_cooker.rb
-    ```
+For a better development experience, consider using the Rust plugin for your preferred editor (e.g., [rust-analyzer](https://rust-analyzer.github.io/) for VSCode). This can provide additional features like code completion, syntax highlighting, and error checking directly within your editor.
 
-Ensure that you have Ruby and Bundler installed on your system to execute this project. This setup maintains a consistent coding style using Ruby RuboCop.
+By following these guidelines, you can ensure a consistent coding style, utilize a powerful linter, and enhance your development workflow while working on the Rust project.
+```
 
-## Test
+This revision includes the use of `rustup` to install Clippy, which is the recommended way to manage Rust toolchains and components.
 
-For testing the functionality of the `RiceCooker` class, a test file named `test_rice_cooker.rb` is provided. This file includes test cases to verify the behavior of methods such as `cook_rice`, `keep_warm`, `steam_cook`, `cook_soup`, and `cook_dessert`. To run the tests, use the following command:
+```markdown
+## Testing
+
+### Running Tests
+
+This project uses the standard Rust testing framework. To run tests, use the following command:
 
 ```bash
-# Run the tests
-ruby test_rice_cooker.rb
+# Run tests
+cargo test
 ```
+

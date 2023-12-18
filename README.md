@@ -1,27 +1,57 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/__xb4cFP)
 
-# Rice Cooker
+# Rust Project
 
-## Description
+## Rust Clippy
 
-This project implements a virtual rice cooker with various cooking functionalities. Users can interact with the program to perform tasks such as cooking rice, keeping food warm, steaming, making soup, and preparing desserts.
+This project uses [Clippy](https://github.com/rust-lang/rust-clippy) as a linter for ensuring code quality and adherence to best practices in Rust.
 
-## Features
+### Installation
 
-- **Cook Rice:** Prepare rice by adding water and the desired quantity of rice.
-- **Keep Warm:** Keep food warm after cooking.
-- **Steam Cooking:** Steam food with an easy-to-use interface.
-- **Cook Soup:** Make delicious soup by adding water and your favorite ingredients.
-- **Cook Dessert:** Create delightful desserts by adding the required ingredients.
+To install Clippy and its dependencies using `rustup`, use the following commands:
 
-## Installation
+```bash
+# Install Clippy with rustup
+rustup component add clippy
+```
 
-For detailed installation instructions, please refer to the langage you prefer :
-[TypeScript](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/typescript).
-[Rust](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/rust).
-[Go](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/go).
-[Ruby](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/ruby).
+### Usage
 
-## Contributing
+To run Clippy and lint the project, use the following command:
 
-Contributions are welcome! If you find any issues or have suggestions, feel free to open an issue or submit a pull request.
+```bash
+# Run Clippy
+cargo clippy
+```
+
+## Coding Standard
+
+This project follows the [Rust Style Guide](https://doc.rust-lang.org/1.0.0/style/) to maintain a consistent coding style.
+
+## Installation and Execution
+
+1. Ensure you have Rust and Cargo installed. If not, download and install them from [Rust official website](https://www.rust-lang.org/tools/install).
+2. Open a terminal or command prompt.
+3. Navigate to the project directory.
+4. Install project dependencies (if any):
+
+    ```bash
+    cargo build
+    ```
+
+5. Execute the program:
+
+    ```bash
+    cargo run
+    ```
+
+## Testing
+
+### Running Tests
+
+This project uses the standard Rust testing framework. To run tests, use the following command:
+
+```bash
+# Run tests
+cargo test
+```

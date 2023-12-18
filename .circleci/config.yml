@@ -22,7 +22,7 @@ jobs:
       # Linting with RuboCop for rice_cooker.rb
       - run:
           name: Run RuboCop
-          command: bundle exec rubocop rice_cooker.rb
+          command: rubocop rice_cooker.rb
 
       # Run tests
       - run:

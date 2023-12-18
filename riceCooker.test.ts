@@ -1,5 +1,5 @@
 import { RiceCooker } from './RiceCooker';
-import { describe, test, afterEach, beforeEach, expect } from '@jest/globals';
+import { describe, test, beforeEach, expect } from '@jest/globals';
 
 
 

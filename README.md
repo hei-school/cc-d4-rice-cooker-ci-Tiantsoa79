@@ -55,7 +55,7 @@ This project adheres to the [TypeScript ESLint Standard](https://typescript-esli
     ts-node RiceCooker.ts
     ```
 
-```markdown
+
 ## Testing with Jest
 
 This project uses Jest for testing. Follow the steps below to set up and run tests.

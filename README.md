@@ -14,13 +14,18 @@ This project implements a virtual rice cooker with various cooking functionaliti
 - **Cook Soup:** Make delicious soup by adding water and your favorite ingredients.
 - **Cook Dessert:** Create delightful desserts by adding the required ingredients.
 
+### CircleCI Integration
+
+This project now includes integration with CircleCI for continuous integration. Each push to the repository triggers automated builds and tests on CircleCI to ensure the project's stability.
+
+
 ## Installation
 
 For detailed installation instructions, please refer to the langage you prefer :
-[TypeScript](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/typescript).
-[Rust](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/rust).
-[Go](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/go).
-[Ruby](https://github.com/hei-school/cc-d2-my-rice-cooker-Tiantsoa79/tree/feature/ruby).
+[TypeScript](https://github.com/hei-school/cc-d4-rice-cooker-ci-Tiantsoa79/tree/feature/typescript?tab=readme-ov-file).
+[Rust](https://github.com/hei-school/cc-d4-rice-cooker-ci-Tiantsoa79/tree/feature/rust?tab=readme-ov-file).
+[Go](https://github.com/hei-school/cc-d4-rice-cooker-ci-Tiantsoa79/tree/feature/go?tab=readme-ov-file).
+[Ruby](https://github.com/hei-school/cc-d4-rice-cooker-ci-Tiantsoa79/tree/feature/ruby?tab=readme-ov-file).
 
 ## Contributing
 
